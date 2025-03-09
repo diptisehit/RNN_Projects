@@ -18,7 +18,7 @@ ht = σ( Wx * X  +   Wh * ht−1 + B)
 
 Here, ht represents the current hidden state, Wx and Wh are weight matrices and B is the bias.
 
-![image.png](attachment:3dfd5c6f-6afa-4891-b3df-ac991f09ae94.png)
+![image](https://github.com/user-attachments/assets/83aa1b99-4c77-42f1-8f24-d24b8c16a509)
 
 This image showcases the basic architecture of RNN and the feedback loop mechanism where the output is passed back as input for the next time step.
 

@@ -45,6 +45,18 @@ There are four types of RNNs based on the number of inputs and outputs in the ne
 3. Many-to-One RNN : a sequence of inputs and generates a single output. e.g. sentiment analysis
 4. Many-to-Many RNN : processes a sequence of inputs and generates a sequence of outputs. e.g. language translation
 
+# Limitations of Recurrent Neural Networks (RNNs)
+While RNNs excel at handling sequential data, they face two main training challenges :
+
+1. Vanishing Gradient: During backpropagation, gradients diminish as they pass through each time step, leading to minimal weight updates. This limits the RNN’s ability to learn long-term dependencies, which is crucial for tasks like language translation.
+2. Exploding Gradient: Sometimes, gradients grow uncontrollably, causing excessively large weight updates that destabilize training.
+
+# Variants of Recurrent Neural Networks (RNNs)
+1. Vanilla RNN
+2. Bidirectional RNNs
+3. Long Short-Term Memory Networks (LSTMs)
+4. Gated Recurrent Units (GRUs)
+
 
 
 

@@ -36,6 +36,15 @@ At each time step RNNs process units with a fixed activation function. These uni
 Since RNNs process sequential data Backpropagation Through Time (BPTT) is used to update the network’s parameters. The loss function L(θ) depends on the final hidden state and each hidden state relies on preceding ones forming a sequential dependency chain.
 BPTT is a learning process where errors are propagated across time steps to adjust the network’s weights enhancing the RNN’s ability to learn dependencies within sequential data.
 
+# Types Of Recurrent Neural Networks
+
+There are four types of RNNs based on the number of inputs and outputs in the network:
+
+1. One-to-One RNN : single input and a single output e.g. binary classification where no sequential data is involved.
+2. One-to-Many RNN :a single input used to produce multiple outputs over time. e.g. in image captioning a single image can be used as input to generate a sequence of words as a caption.
+3. Many-to-One RNN : a sequence of inputs and generates a single output. e.g. sentiment analysis
+4. Many-to-Many RNN : processes a sequence of inputs and generates a sequence of outputs. e.g. language translation
+
 
 
 

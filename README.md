@@ -6,7 +6,7 @@ RNNs allow the network to “remember” past information by feeding the output 
 
 # Recurrent Neural Network Architecture
 
-![image.png](attachment:e92b3fa8-4029-4e33-812d-54c834673e00.png)
+![image](https://github.com/user-attachments/assets/a340f4de-8f36-4dd2-87b2-74abc35440f2)
 
 Unlike traditional deep neural networks, where each dense layer has distinct weight matrices, RNNs use shared weights across time steps, allowing them to remember information over sequences.
 
